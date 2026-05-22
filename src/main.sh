@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 # Функция 1: сложение
-summ() {
+add() {
     echo $(($1 + $2))
 }
 
 # Функция 2: проверка чётности
-even() {
+is_even() {
     if [ $(($1 % 2)) -eq 0 ]; then
         echo "true"
     else
